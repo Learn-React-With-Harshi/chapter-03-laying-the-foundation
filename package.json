@@ -1,0 +1,31 @@
+{
+  "name": "chapter-03-laying-the-foundation",
+  "version": "1.0.0",
+  "description": "Chapter-03 was a great session and lot of core concepts like JSX, functional components, babel",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Learn-React-With-Harshi/chapter-03-laying-the-foundation.git"
+  },
+  "author": "Harshitha SV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Learn-React-With-Harshi/chapter-03-laying-the-foundation/issues"
+  },
+  "homepage": "https://github.com/Learn-React-With-Harshi/chapter-03-laying-the-foundation#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  }
+}

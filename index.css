@@ -1,0 +1,97 @@
+body {
+  box-sizing: border-box;
+  margin :0;
+  padding: 0;
+  font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.heading-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  height : 40px;
+  background-color: #20232a;
+  
+}
+
+.logo-wrapper {
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  height : 40px;
+  width : 40px;
+  padding : 10px;
+}
+
+.logo-name {
+  font-size : 18px;
+  color: 	#61dafb;
+  letter-spacing: 1px;
+}
+
+.search {
+  max-width: 400px;
+}
+
+input{
+  height: 25px;
+  width: 500px;
+  appearance: none;
+  border: 0px inset rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  outline: none;
+}
+
+
+/* User icon */
+.avatar{  
+  overflow:hidden;
+}
+
+.user-icon{
+  font-size:6px; 
+  float:left; margin:1em; 
+  border-radius:4em; border:1px solid skyblue;
+  height:6em; width:6em;  
+  background:none;padding:0.1em; 
+  
+}
+.user-icon::before{
+  content:" "; 
+  display:block;
+  height:2em;
+  width:2em;
+  background:skyblue;
+  position:relative; 
+  left:2em;
+  top:0.8em;
+  border-radius:2em;
+}
+.user-icon::after{
+  content:" "; 
+  display:block;
+  height:2em;
+  width:4em;
+  background:skyblue;
+  position:relative; left:1em;top:1em;
+  border-radius:2em 2em 0 0;
+}
+
+/*Assignment 1 */
+.title {
+  color : #f7f7f7;
+  background-color: #59287a;
+}
+.title a {
+  color : #f7f7f7;
+}
