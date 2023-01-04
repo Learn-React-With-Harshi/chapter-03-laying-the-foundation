@@ -41,7 +41,8 @@ If the type attribute is set `importmap`, the body of teh element contains impor
   
 If the type attribute contains anyother value, then the code is treated as data block and will not be processed by the browser. A valid MIME type other than Javascript MIME type (Eg: image/png or text/css) must be mentioned. All the other attributes for this type will be ignored even the `src` attribute.
 
-  
-### 4. {TitleComponent} vs {<TitleComponent />} vs {<TitleComponent></TitleComponent>} in jsx 
+   
+### 4. {TitleComponent} vs {<TitleComponent />} vs {<TitleComponent></TitleComponent>} in jsx    
+
 
 
