@@ -44,5 +44,10 @@ If the type attribute contains anyother value, then the code is treated as data 
    
 ### 4. {TitleComponent} vs {<TitleComponent />} vs {<TitleComponent></TitleComponent>} in jsx    
 
+   `{ TitleComponent }` - No output is shown in the browser. Console throws the following warning
+   ```
+   index.js:1 Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it.
+  
+   ```
 
 
