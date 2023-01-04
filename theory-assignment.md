@@ -23,7 +23,7 @@ JSX ------> React.createElement() -----> React element ----> Object to be render
 
 ### 3. Role of type attribute in script tag ? What options can I use there ?
 
-`type` attribute of the <script> tag indicates the type of script.Until HTML 4,  type is a required attribute. The value of type can be any of the following : 
+`type` attribute of the <script> tag indicates the type of script. Until HTML 4,  type is a required attribute. The value of type can be any of the following : 
 
 ```
 <script type="" src="app.js"></script>
@@ -38,7 +38,7 @@ If the type attribute is set `module`, then the code in that js file is treated 
 ```
 <script type="importmap" src="app.js"></script>
 ```
-If the type attribute is set `importmap`, the body of teh element contains importmap ie an JSON object using which the browser can resolve the module specifiers while importing modules.
+If the type attribute is set `importmap`, the body of the element contains importmap ie an JSON object using which the browser can resolve the module specifiers while importing modules.
 
 ```
 <script type="{$anyothervalue}" src="app.js"></script>
