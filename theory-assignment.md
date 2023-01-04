@@ -2,7 +2,7 @@
    Documenting my learning journey of [Namaste React Live Course](https://learn.namastedev.com/) conducted by Akshay Saini
    
    
-## Theory Assignment: `Chapter - 02 Igniting React App` (31/12/2022)
+## Theory Assignment: `Chapter - 03 Laying the foundation` (01/01/2023)
 
 ### 1. What is `JSX`?
 `JSX` is neither a string nor a html tag but a syntactic sugar for the React object. It is a `html-like syntax` inside `js` code for creating react elements. By using JSX, instead of writting markup (html) and logic(js) separately, the separation of concerns (SoC) is emphasized based on loosely coupled units called 'Components' which contains both. 
