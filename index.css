@@ -11,13 +11,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 16px;
-  max-width: 1400px;
+  gap: 10px;
+  width: auto;
   margin: 0 auto;
+  height : auto;
   padding: 20px 10px;
-  height : 40px;
   background-color: #20232a;
-  
 }
 
 .logo-wrapper {
@@ -45,7 +44,7 @@ img {
 
 input{
   height: 25px;
-  width: 500px;
+  width: 300px;
   appearance: none;
   border: 0px inset rgba(0, 0, 0, 0.4);
   border-radius: 7px;
@@ -61,10 +60,11 @@ input{
 .user-icon{
   font-size:6px; 
   float:left; margin:1em; 
-  border-radius:4em; border:1px solid skyblue;
-  height:6em; width:6em;  
+  border-radius:4em;
+  border:1px solid skyblue;
+  height:6em; 
+  width:6em;  
   background:none;padding:0.1em; 
-  
 }
 .user-icon::before{
   content:" "; 
@@ -83,14 +83,26 @@ input{
   height:2em;
   width:4em;
   background:skyblue;
-  position:relative; left:1em;top:1em;
+  position:relative;
+  left:1em;
+  top:1em;
   border-radius:2em 2em 0 0;
 }
 
 /*Assignment 1 */
 .title {
   color : #343a40;
+  border : skyblue 1px solid;
 }
 .title a {
   color : #343a40;
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+  .heading-wrapper {
+    flex-direction: column;
+    width : auto;
+    height : auto;
+  }
 }
