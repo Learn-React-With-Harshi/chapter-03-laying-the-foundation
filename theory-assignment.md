@@ -5,10 +5,16 @@
 ## Theory Assignment: `Chapter - 02 Igniting React App` (31/12/2022)
 
 ### 1. What is `JSX`?
+`JSX` is neither a string nor a html tag but a syntactic sugar for the React object. It is a `html-like syntax` inside `js` code for creating react elements. By using JSX, instead of writting markup (html) and logic(js) separately, the separation of concerns (SoC) is emphaized based on loosely coupled units called 'Components' which contains both. 
+Broswer does not understand JSX and a transpiler/compiler is required to convert this to browser understandable js code. Eg: Babel
 
+JSX ------> React.createElement() -----> React element ----> Object to be rendered in the DOM
 
 ### 2. Superpowers of JSX 
-
+- JSX as variables
+- js expressions in jsx 
+- Attributes in JSX
+- Props in JSX
 
 ### 3. Role of type attribute in script tag ? What options can I use there ?
 
