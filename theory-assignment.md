@@ -1,4 +1,4 @@
-# `Learn React With Harshi` Series 
+# `Learn React With Harshi 👩🏻‍💻 Series`
    Documenting my learning journey of [Namaste React Live Course](https://learn.namastedev.com/) conducted by Akshay Saini
    
    
