@@ -6,6 +6,8 @@
 
 One line about this chapter : `JSX is NOT html inside js but syntactic sugar for the React object`
 
+Check out [Chapter-03 Live](https://learn-react-with-harshi-chapter-03.netlify.app/) for the live demo of this chapter's coding assignment 
+
 If you are interested in learning other chapters of this series, please browse through the [my repositories](https://github.com/orgs/Learn-React-With-Harshi/repositories)
 
 If you have any queries/suggestions about my version of this course, please feel free to raise PR. Happy coding !!! 
